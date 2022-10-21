@@ -1,0 +1,115 @@
+.arrow{
+  transition:all .5s;
+  transform: translate(0, 0%);
+  padding: 14px 15px;
+}
+.to-top:hover .arrow{
+    cursor: pointer;
+    transition:all .5s;
+    animation-name:arrow-up;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode:backwards;
+}
+
+.to-top {
+    overflow-y: hidden;
+    z-index: 10000;
+    width: 45px;
+    height: 45px;
+    background-color: #4c535a;
+    position: fixed;
+    bottom: 10%;
+    right: 3%;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 1px 3px black;
+    transition: all .5s;
+}
+
+.to-top:hover{
+  transform: translatey(-7px);
+  box-shadow: 0px 6px 6px #000000;
+  transition: all .5s;
+}
+
+@keyframes arrow-up{
+  0%{
+    transform: translateY(0px);
+  }
+  30%{
+    opacity:0;
+    transform: translateY(-30px)
+  }
+  31%{
+    opacity:0;
+    transform: translateY(26px);
+  }
+  50%{
+    transform: translateY(25px);
+  }
+  80%{
+    transform:translateY(15px)
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+
+@font-face{
+  font-family:Plom Praeng;
+  src: url('fonts/PlomPraeng.ttf');
+}
+
+.profile-img{
+  width: 60px;
+  box-shadow: 0px 1px 2px 0px black;
+  transition:all .2s;
+}
+
+.profile-img:hover{
+  transition:all .2s;
+  width:100px;
+  box-shadow: 0px 3px 6px 0px black;
+}
+
+body{
+  opacity: 0;
+}
+
+.profile{
+   width: 70%;
+}
+
+.topnav{
+  border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+  
+}
+
+.bottomnav{
+  border-top-left-radius: 10px;border-top-right-radius: 10px;
+  
+}
+
+.nav-font{
+  font-size: 180%;
+}
+
+.card:hover {
+    outline: solid #3d3d3dab;
+    outline-style: solid;
+    outline-width: 1.5px;
+    transform: scale(1.1) translateY(-0.1rem);
+    box-shadow: 0rem 1.5rem 14px -3px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    transition: all .2s;
+}
+
+.nav-link:hover{
+  transition: all .1s;
+  border-style: solid !important;
+  border-color: #9e9e9e !important;
+  border-radius: 4px !important;
+  border-width: 1.5px !important;
+}

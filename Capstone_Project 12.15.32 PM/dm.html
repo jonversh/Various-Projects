@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/v4-shims.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery-ui/jquery-ui.css">
+    <link rel="shortcut icon" href="images/bomb.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dm.css">
+    <title>Spark | DM's</title>
+  </head>
+  <body class="font-weight-light bg-secondary">
+    
+    <!--top navbar-->
+    
+      <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top shadow topnav">
+        <!-- Brand -->
+        <a class="navbar-brand nav-font feed" href="#">SPARK<i class="ml-2 fa fa-bomb"></i></a>
+        
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler nav-btn collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+          <i class="fa fa-ellipsis-v"></i>
+        </button>
+        
+        <!-- Navbar links -->
+        <div class="navbar-collapse justify-content-end collapse" id="collapsibleNavbar" style="">
+          <ul class="navbar-nav text-center topnavbar p-2" id="topnavbar">
+            <li class="nav-item">
+              <a class="nav-link border border-left-0 border-right-0 text-dark feed" href="#"><i class="mr-2 fa fa-users"></i>Feed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-left-0 border-right-0 text-dark" href="#" id="trending"><i class="mr-2 fa fa-globe"></i>Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-left-0 border-right-0 text-dark" href="#" id="profile"><i class="mr-2 fa fa-user-circle"></i>Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border border-left-0 border-right-0 text-dark" href="#" id="message"><i class="mr-2 fa fa-comments"></i>DM's</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      
+    <!--Bottom navbar-->
+    <div id="bottom-nav" style="display: block;">
+      <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-bottom shadow mt-4 bottomnav" id="bottomnav">
+        <div class="container justify-content-center">
+          <ul class="list-inline m-0">
+            <li class="list-inline-item"><button class="btn btn-danger font-weight-light" id="logout">Log Out <i class="fa fa-sign-out"></i></button></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    
+    <!--Bottom nav/input-->
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark rounded mr-3" id="bottominput">
+    <fieldset class="ml-auto">
+      <form class="ml-auto row">
+    <input class="form-control col-8 mr-2" id="message-input" type="text" placeholder="Enter Your Message Here..." autocomplete="off">
+        <button class="btn btn-success float-right mb-2 col-3" id="message-send" type="submit">Send</button>
+        
+      </form>
+    </fieldset>
+    </nav>
+    
+    <!--Messages-->
+    
+    <div class="container d-flex justify-content-center dmcard">
+      <div class="card dmcard p-3 m-3">
+            <h1 class="text-center text-dark"><img class="profile-img rounded-circle" src="images/john1.jpeg"> John</h1>
+      </div>
+    </div>
+    
+    <div class="container-fluid messages pl-5 pr-5 mb-5 pb-5 flex-wrap-reverse" id="messages">
+      
+      <div class="toast customtoast" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body">
+          Whats up man?
+        </div>
+      </div>
+      
+      <div class="toast customtoast ml-auto" data-autohide="false">
+        <div class="toast-header">
+          Me
+        </div>
+        <div class="toast-body">
+          Whats down, whats gucci?
+        </div>
+      </div>
+      
+      <div class="toast customtoast mr-auto" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body ml-auto">
+          You tell me
+        </div>
+      </div>
+      
+      <div class="toast customtoast ml-auto" data-autohide="false">
+        <div class="toast-header">
+          Me
+        </div>
+        <div class="toast-body">
+          Everything is regular right now
+        </div>
+      </div>
+      
+      <div class="toast customtoast mr-auto" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body">
+          What do you mean?
+        </div>
+      </div>
+      
+      <div class="toast customtoast ml-auto" data-autohide="false">
+        <div class="toast-header">
+          Me
+        </div>
+        <div class="toast-body">
+          Nothin major
+        </div>
+      </div>
+      
+      <div class="toast customtoast mr-auto" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body">
+          Brah stop playin 😂😠
+        </div>
+      </div>
+      
+      <div class="toast customtoast mr-auto" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body">
+          wyd rn?
+        </div>
+      </div>
+      
+      <div class="toast customtoast ml-auto" data-autohide="false">
+        <div class="toast-header">
+          Me
+        </div>
+        <div class="toast-body">
+          Listening to this new slapper
+        </div>
+      </div>
+      
+      <div class="toast customtoast mr-auto" data-autohide="false">
+        <div class="toast-header">
+          John
+        </div>
+        <div class="toast-body">
+          I was just listening to a slap earlier
+        </div>
+      </div>
+      
+      <div class="toast customtoast ml-auto" data-autohide="false">
+        <div class="toast-header">
+          Me
+        </div>
+        <div class="toast-body">
+          Whats it called?
+        </div>
+      </div>
+      
+    </div>
+
+    <!--left menu-->
+    
+  <div class="conatiner-fluid left-menu shadow-md p-5">
+    <i class="fa fa-chevron-right right-arrow"></i>
+    <table class="table table-hover bg-white">
+    <thead>
+      <tr class="t-r">
+        <th>Username:</th>
+        <th>Last Message:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="t-r">
+        <td>John</td>
+        <td>Lol</td>
+      </tr>
+      <tr class="t-r">
+        <td>Mary</td>
+        <td>Omg</td>
+      </tr>
+      <tr class="t-r">
+        <td>July</td>
+        <td>What! I can't believe that!</td>
+      </tr>
+      <tr class="t-r">
+        <td>Jose</td>
+        <td>Dude, you have to listen to this!</td>
+      </tr>
+      <tr class="t-r">
+        <td>Kevin</td>
+        <td>This new Meek Mill slaps... I ain't finna lie</td>
+      </tr>
+      <tr class="t-r">
+        <td>Ross</td>
+        <td>Whats up with you?</td>
+      </tr>
+      <tr class="t-r">
+        <td>James</td>
+        <td>We still meeting up later?</td>
+      </tr>
+      <tr class="t-r">
+        <td>Cindy</td>
+        <td>I want some Starbucks right now!</td>
+      </tr>
+      <tr class="t-r">
+        <td>Kendall</td>
+        <td>Hey, have you found any bangers on here yet?</td>
+      </tr>
+      <tr class="t-r">
+        <td>Alex</td>
+        <td>Aye, call me when you get a chance</td>
+      </tr>
+      <tr class="t-r">
+        <td>Ramon</td>
+        <td>I just quit...</td>
+      </tr>
+      <tr class="t-r">
+        <td>Nathan</td>
+        <td>Dude lets play some fifa right now... You down?</td>
+      </tr>
+      <tr class="t-r">
+        <td>Hector</td>
+        <td>Im in school right now</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+    
+  <!-- <script src="js/jquery.slim.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="js/jquery-ui/jquery-ui.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://cdn.usebootstrap.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
+  <script src="js/dm.js"></script>
+  
+  </body>
+</html>

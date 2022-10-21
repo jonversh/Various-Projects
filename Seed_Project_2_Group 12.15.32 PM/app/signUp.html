@@ -1,0 +1,154 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/v4-shims.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/signUp.css">
+    <title>At Your Door | Contact Us</title>
+</head>
+
+<body>
+
+    <nav class="nav d-flex navbar bg-light navbar-light py-0 fixed-top" id="top">
+        <div class="d-inline-flex justify-content-start">
+            <a class="nav-item nav-link p-0" href="index.html">
+                <h1 class="m-2">At Your Door <i class="fa fa-door-closed"></i></h1>
+            </a>
+        </div>
+        <!-- toggler icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Inside Nav -->
+        <div class="collapse navbar-collapse p-2 vh-100 transition" id="collapsibleNavbar">
+            <div class="nav ml-auto justify-content-center">
+                <hr class="col-12 m-0">
+                <div class="navbar">
+                    <ul class="nav">
+                        <li class="nav-item" id="bottomTop">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+    
+                        <li class="nav-item" id="bottomTop">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+    
+                        <li class="nav-item" id="bottomTop">
+                            <a class="nav-link" href="contactUs.html">Contact Us</a>
+                        </li>
+    
+                        <li class="nav-item" id="bottomTop">
+                            <a class="nav-link disabled" href="signUp.html">Sign Up or Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="col-12 m-0">
+            </div>
+            <div class="container d-flex height100">
+                <a class="m-auto" href="signUp.html">
+                    <button class="btn btn-success ">Sign Up Or Login</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid mt-5 customHeader">
+        <div class="container mt-5">
+            <h1 class="text-center">Sign Up Or Login</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md p-5">
+                <h1 class="">Sign Up</h1>
+                <form class='mt-3' id="signUp">
+
+                    <label for="nameSignUp" class=''>Name:</label>
+                    <input type="text" id="nameSignUp" class='customTextInput form-control '>
+
+                    <label for="emailSignUp" class=' mt-3'>Email:</label>
+                    <input type="text" autocomplete="email" class='customTextInput form-control' id="emailSignUp">
+
+                    <label for="passwordSignUp" class=' mt-3'>Password:</label>
+                    <input type="password" autocomplete="new-password" class='customTextInput form-control' id="passwordSignUp">
+
+                    <label for="cPasswordSignUp" class=' mt-3'>Confirm Password:</label>
+                    <input type="password" autocomplete="new-password" class='customTextInput form-control' id="cPasswordSignUp">
+
+                    <button id="signUpButton" class="btn btn-block bg-light mt-3">Sign Up</button>
+
+                </form>
+            </div>
+
+            <div class="col-md p-5">
+                <h1 class="">Login</h1>
+                <form class="mt-3" id="login">
+
+                    <label for="emailLogin">Email:</label>
+                    <input type="text" id="emailLogin" class="customTextInput form-control">
+
+                    <label for="passwordLogin" class="mt-3">Password:</label>
+                    <input type="password" autocomplete="current-password" id="passwordLogin" class="customTextInput form-control">
+
+                    <button id="loginButton" class="btn btn-block bg-light mt-3">Login</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-secondary container-fluid m-0 mt-5 text-white p-5 row">
+
+        <div class="col-md text-center p-3">
+            <p class="h5 font-weight-light">Follow Us !</p>
+            <a class="text-white" href="#"><i class="fa fa-facebook p-2" data-toggle="modal"
+                    data-target="#facebookModal"></i></a>
+            <a class="text-white" href="#"><i class="fa fa-twitter p-2" data-toggle="modal"
+                    data-target="#twitterModal"></i></a>
+            <a class="text-white" href="#"><i class="fa fa-instagram p-2" data-toggle="modal"
+                    data-target="#instaModal"></i></a>
+            <a class="text-white" href="#"><i class="fa fa-snapchat-ghost p-2" data-toggle="modal"
+                    data-target="#snapchatModal"></i></a>
+        </div>
+
+        <div class="col-md text-center p-3">
+            <p class="h5 font-weight-light">Links</p>
+            <a class="text-white" href="index.html">Home</a> |
+            <a class="text-white" href="about.html">About</a> |
+            <a href="contactUs.html" class="text-white">Contact Us</a> |
+            <a href="signUp.html" class="text-white">Sign Up or Login</a>
+        </div>
+
+        <div class="col-md text-center p-3">
+            <p class="h5 text-center font-weight-light">Contact Us</p>
+            <p>Email: info@ayd.com</p>
+            <p>Phone: 123-123-1234</p>
+        </div>
+
+        <div class="col-md text-center p-3">
+            <p class="h5 font-weight-light">Our Location</p>
+            <p>123 Somewhere Rd <br> SomeCity, SomeState 12345</p>
+        </div>
+    </footer>
+
+
+
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/signUp.js"></script>
+
+</body>
+
+</html>

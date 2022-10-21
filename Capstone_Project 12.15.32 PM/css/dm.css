@@ -1,0 +1,110 @@
+.right-arrow {
+    position: absolute;
+    right: 10px;
+    top: 50vh;
+}
+
+@font-face{
+  font-family:Plom Praeng;
+  src: url('fonts/PlomPraeng.ttf');
+}
+
+.profile-img{
+  width:50px;
+  border-radius:50%;
+}
+
+.messages{
+  overflow-y: scroll;
+  position: relative;
+  width:100vw;
+  height: 60vh;
+  /* top: 21%; */
+  left: 0px;
+}
+
+
+
+.customtoast{
+  width: 65%;
+}
+
+.dmcard{
+      width: 85%;
+}
+
+#bottominput{
+  position:absolute;
+  bottom: 54px;
+  right:10px;
+  z-index: 100;
+}
+.every{
+  height:100vh;
+}
+.left-menu{
+  overflow-y:scroll;
+  width: 350px;
+  background-color: #b7b5b5;
+  padding: 20px 20px 0 20px;
+  position: absolute;
+  left: -325px;
+  z-index: 100;
+  height: 87vh;
+  top: 7.5%;
+}
+
+.nav-font{
+  font-size: 180%;
+}
+
+.ca{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: card;
+  animation-duration: .3s;
+  width:375px;
+  height: 381px;
+}
+
+body{
+  opacity:0;
+}
+
+@keyframes card{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: .1;
+  }
+  20%{
+    opacity: .2;
+  }
+  30%{
+    opacity: .3;
+  }
+  40%{
+    opacity: .4;
+  }
+  50%{
+    opacity: .5;
+  }
+  60%{
+    opacity: .6;
+  }
+  70%{
+    opacity: .7;
+  }
+  80%{
+    opacity: .8;
+  }
+  90%{
+    opacity: .9;
+  }
+  100%{
+    opacity: 1;
+  }
+}

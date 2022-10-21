@@ -1,0 +1,15 @@
+.tlm{
+  border-radius:20px;
+  width:20%;
+  height:20%;
+}
+.profile{
+  width:25%;
+}
+a{
+  color: var(--green);
+}
+@font-face {
+  font-family: "CustomFont";
+  src: url("../css/customfont.ttf");
+  }

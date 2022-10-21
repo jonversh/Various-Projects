@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="http://static.tlmworks.org/track_1.0/cdns/bootstrap-4/css/bootstrap-4.1.3.min.css"> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Portfolio</title>
+  <style>
+    * {
+      font-family: CustomFont;
+    }
+
+    :root {
+      --green: #00c69d;
+      --blue: #2c3e52;
+      --dark: #1e2833;
+      --primary: background-color:#00c69d:;
+    }
+  </style>
+</head>
+
+<body class="scrollspy" style="background-color: var(--green);">
+
+
+  <!--Top nav-->
+
+  <nav class="navbar nav-fill sticky-top bg-dark navbar-dark navbar-expand-sm p-0 ">
+    <div class="container">
+      <div class="navbar-brand text-left text-uppercase font-weight-bold pt-3 float-left">
+        <span class="text-white h5">code.</span><span class="text-warning h5">7370</span>
+      </div>
+      <div class="navbar-nav pt-3 text-right">
+        <a class="nav-item nav-link h4 disabled" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link h4 disabled" href="#about">About</a>
+        <a class="nav-item nav-link h4 disabled" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <figure>
+    <img class="figure-img img-fluid mx-auto d-block mt-5 tlm" src="thelastmile.jpeg">
+    <figcaption class="figure-caption text-center text-white text-uppercase text-bold">
+      <h1>code 7370 bootstap</h1>
+      <img class="mb-3" src="star.png">
+      <br>
+      <h2 class="h5 pb-5 mb-5">Software Engineer - Web Developer - UI/UX Designer</h2>
+    </figcaption>
+  </figure>
+
+  <div class="bg-white" id="portfolio">
+    <h1 class="pt-5 text-uppercase text-center">portfolio</h1>
+    <div class="container text-center pb-5 mt-5">
+      <img class="profile p-2" src="cabin.png">
+      <img class="profile p-2" src="cake.png">
+      <img class="profile p-2" src="circus.png">
+      <img class="profile p-2" src="game.png">
+      <img class="profile p-2" src="safe.png">
+      <img class="profile p-2" src="submarine.png">
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="pt-5 pb-5 text-uppercase text-center text-white" id="about">about</h1>
+    <div class="row justify-content-center">
+      <p class="text-white col-5">This is a bootstrap theme used by Code 7370 for tutorial purposes. The download
+        includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for
+        easy customization.</p>
+      <p class="text-white col-5">Whether you're a Code 7370 student looking to showcase your work, or getting ready to
+        leave and turn professional and looking to attract clients, or a graphic artist looking to share your projects,
+        this template is the perfect starting point!</p>
+      <a class="text-white border border-white rounded p-3 m-5" href=#> Download PDF Resume</a>
+      <a class="text-white border border-white rounded p-3 m-5" href=#> Download DOCX Resume</a>
+    </div>
+  </div>
+
+  <div class="bg-white">
+    <h1 class="text-center text-uppercase pt-5" id="contact">contact me</h1>
+    <div class="container">
+      <form>
+        <div class="form-group mt-5">
+          <label for="name">Name</label>
+          <input type="text" class="form-control border rounded-0 border-top-0 border-left-0 border-right-0" id="name">
+        </div>
+
+        <div class="form-group mt-5">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control border rounded-0 border-top-0 border-left-0 border-right-0"
+            id="email">
+        </div>
+
+        <div class="form-group mt-5">
+          <label for="number">Phone Number</label>
+          <input type="tel" class="form-control border rounded-0 border-top-0 border-left-0 border-right-0" id="number">
+        </div>
+
+        <div class="form-group mt-5">
+          <label for="message">Message</label>
+          <textarea name="textarea" rows="5"
+            class="form-control border rounded-0 border-top-0 border-left-0 border-right-0 pb-5" id="number"></textarea>
+        </div>
+
+        <button class="btn mb-5 text-white" style="background-color: var(--green);">Send</button>
+
+      </form>
+    </div>
+  </div>
+
+  <div style="background-color: var(--blue);">
+    <div class="container row mx-auto justify-content-center p-5">
+
+      <div class="conatiner text-center p-3">
+        <h4 class="text-white text-uppercase">location</h4>
+        <p class="text-white">555 Freedom Lane <br> Anytown, CA 99999 USA</p>
+      </div>
+
+      <div class="conatiner justify-content-center p-3">
+        <h4 class="text-white text-uppercase">around the web</h4>
+        <div class="row justify-content-center">
+          <img class="border rounded-circle p-1 ml-1 bottom" src="facebook.png">
+          <img class="border rounded-circle p-1 ml-1 bottom" src="google-plus.png">
+          <img class="border rounded-circle p-1 ml-1 bottom" src="twitter.png">
+          <img class="border rounded-circle p-1 ml-1 bottom" src="linkedin2.png">
+          <img class="border rounded-circle p-1 ml-1 bottom" src="dribbble.png">
+        </div>
+      </div>
+
+      <div class="conatiner text-center col-4 p-3">
+        <h4 class="text-white text-uppercase">about the the last mile</h4>
+        <p class="text-white">The Last Mile sponsors Code 7370 schools across the United States.<a href="#">Code 7370
+            Bootstrap</a></p>
+      </div>
+    </div>
+
+    <div class="p-1" style="background-color: var(--dark)">
+      <div class="container justify-content-center p-3">
+        <p class="text-white text-center m-0">Copyright The Last Mile</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="js/jquery.slim.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <!-- <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.min.js"></script> -->
+  <script src="https://cdn.usebootstrap.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

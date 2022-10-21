@@ -1,0 +1,180 @@
+.audio{
+  width:100%;
+}
+
+.arrow{
+  transition:all .5s;
+  transform: translate(0, 0%);
+  padding: 14px 15px;
+}
+.to-top:hover .arrow{
+    cursor: pointer;
+    transition:all .5s;
+    animation-name:arrow-up;
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-fill-mode:backwards;
+}
+
+.to-top {
+    overflow-y: hidden;
+    z-index: 10000;
+    width: 45px;
+    height: 45px;
+    background-color: #4c535a;
+    position: fixed;
+    bottom: 6rem;
+    right: 3%;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 1px 3px black;
+    transition: all .5s;
+}
+
+.to-top:hover{
+  transform: translatey(-7px);
+  box-shadow: 0px 6px 15px -3px #000000;
+  transition: all .5s;
+}
+
+@keyframes arrow-up{
+  0%{
+    transform: translateY(0px);
+  }
+  30%{
+    opacity:0;
+    transform: translateY(-30px)
+  }
+  31%{
+    opacity:0;
+    transform: translateY(26px);
+  }
+  50%{
+    transform: translateY(25px);
+  }
+  80%{
+    transform:translateY(15px)
+  }
+  100%{
+    transform:translateY(0);
+  }
+}
+
+.liked{
+    width: 30%;
+    background-image: linear-gradient(145deg, red, #ff5fcd, pink, red);
+    color: white;
+    transform: translateY(-5px);
+    border-radius: 30px;
+    transition: all 3s;
+    position: relative;
+    transform: translateX(109%);
+    background-size: 844%;
+    border: none;
+    animation: like 20s infinite cubic-bezier(0, 0.35, 0.85, 0.46) backwards;
+    z-index: 1;
+}
+
+.liked:before{
+ border-radius: 30px;
+ background-size: 844%;
+ background-image: linear-gradient(145deg, red, #ff5fcd, pink, red);
+ animation-name:like;
+ animation-duration:5s;
+ animation-iteration-count:infinite;
+ animation-timing-function:ease-out;
+ animation-fill-mode:backwards;
+ filter: blur(6px);
+ content: '';
+ position: absolute;
+ top: -5px;
+ left: -5px;
+ right: -5px;
+ bottom: -5px;
+ transition: .5s;
+ z-index: -1;
+ opacity: .6;
+}
+
+@keyframes like{
+  0%{
+   background-position: 0%;
+  }
+  50%{
+    background-position: 100%;
+  }
+  100%{
+    background-position: 0%;
+  }
+}
+
+#alert{
+  transition: all 3s;
+}
+
+body{
+  opacity:0;
+}
+
+@font-face{
+  font-family:Plom Praeng;
+  src: url('fonts/PlomPraeng.ttf');
+}
+
+@media(min-width:575px){
+#card-group{
+ transform: translateX(-24px);
+}
+}
+
+.topnav{
+  border-bottom-right-radius: 10px;border-bottom-left-radius: 10px
+  ;}
+
+.bottomnav{
+  border-top-left-radius: 10px;border-top-right-radius: 10px;
+  
+}
+
+.nav-link:hover{
+  transition: all .15s;
+  border-style: solid !important;
+  border-color: #9E9E9E !important;
+  border-radius: 4px !important;
+  border-width: 1.5px !important;
+}
+
+.card:hover {
+    outline: solid #3d3d3dab;
+    outline-style: solid;
+    outline-width: -0.5px;
+    transform: scale(1.1) translateY(-0.5rem);
+    box-shadow: 0rem 1.5rem 6px -10px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    transition: all .2s;
+}
+
+.useralert{
+    font-size: 82%;
+}
+
+.profile-img{
+  width: 40px;
+  box-shadow: 0px 1px 2px 0px black;
+  transition:all .2s;
+}
+
+.profile-img:hover{
+  transition:all .2s;
+  width: 10%;
+  box-shadow: 0px 3px 6px 0px black;
+}
+
+.nav-font{
+  font-size: 180%;
+}
+
+video{
+  width:100%;
+}

@@ -1,0 +1,281 @@
+html{
+  font-family:Tahoma;
+}
+a:link{
+  text-decoration:none;
+  color:#ffffff;
+}
+.top{
+  position:absolute;
+  top:-20px;
+  left:-10px;
+  width:1940px;
+  height:40px;
+  padding-top:20px;
+  background-color:#ffdb00;
+  font-family:Tahoma;
+  font-weight:bold;
+  text-align:center;
+  color: white;
+}
+.logo{
+  position:absolute;
+  top:70px;
+  left:720px;
+}
+.circle{
+  position:absolute;
+  right:10px;
+  top:-3px;
+  z-index:1;
+}
+.rewards{
+  position:absolute;
+  top:50px;
+  right:180px;
+  color:grey;
+}
+.account{
+  position:absolute;
+  top:50px;
+  right:50px;
+  color:grey;
+}
+.menu{
+  font-size:15px;
+  font-weight:bold;
+  display:inline;
+  position:absolute;
+  top:250px;
+  left:550px;
+  
+}
+.menu2{
+  font-size:15px;
+  font-weight:bold;
+  display:inline;
+  position:absolute;
+  top:250px;
+  left:680px;
+  
+}
+.menu3{
+  font-size:15px;
+  font-weight:bold;
+  display:inline;
+  position:absolute;
+  top:250px;
+  left:850px;
+  
+}
+.menu4{
+  font-size:15px;
+  font-weight:bold;
+  display:inline;
+  position:absolute;
+  top:250px;
+  left:1000px;
+  
+}
+.menu5{
+  font-size:15px;
+  font-weight:bold;
+  display:inline;
+  position:absolute;
+  top:250px;
+  left:1180px;
+}
+.pizza{
+  width:1930px;
+  position:absolute;
+  top:300px;
+  left:-10px;
+}
+.colordash{
+  position:absolute;
+  top:300px;
+  left:660px;
+}
+.squiggle{
+  position:absolute;
+  top:820px;
+  right:550px;
+}
+.roasted{
+  color:white;
+  font-weight:bold;
+  font-size:35pt;
+  position:absolute;
+  top:770px;
+  right:100px;
+}
+.sweet{
+  color:white;
+  font-size:20pt;
+  position:absolute;
+  top:900px;
+  right:120px;
+}
+.pizza2{
+  width:1930px;
+  position:absolute;
+  top:1250px;
+  left:-10px;
+}
+.reward{
+  width:300px;
+  position:absolute;
+  top:1100px;
+  left:150px;
+}
+.join{
+  font-size:35pt;
+  font-weight:bold;
+  position:absolute;
+  top:1400px;
+  left:45px;
+}
+.smallplate{
+  color:tan;
+  font-size:25pt;
+  font-weight:100;
+  text-align:right;
+  position:absolute;
+  top:1500px;
+  left:50px;
+}
+.signup{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:50px;
+  padding-left:50px;
+  font-size:35pt;
+  font-weight:bold;
+  color:white;
+  background-color:black;
+  position:absolute;
+  top:1700px;
+  left:90px;
+}
+.squigly{
+  position:absolute;
+  top:2500px;
+  left:930px;
+  
+}
+.season{
+  color:black;
+  font-size:45pt;
+  font-weight:bold;
+  position:absolute;
+  top:2530px;
+  left:660px;
+}
+.fresh{
+  color:grey;
+  font-size:25pt;
+  position:absolute;
+  top:2650px;
+  left:760px;
+}
+.drink{
+  position:absolute;
+  top:2790px;
+  left:150px;
+}
+.plate{
+  position:absolute;
+  top:2790px;
+  left:833px;
+}
+.drinks{
+  width:1685px;
+  position:absolute;
+  top:3706px;
+  left:150px;
+}
+.back{
+  width:80px;
+  position:absolute;
+  top:3650px;
+  right:10px;
+}
+.company{
+  font-weight:lighter;
+  color:#a2a1a1;
+  list-style:none;
+  padding-left:300px;
+  position:absolute;
+  top:5000px;
+  left:-10px;
+  height:200px;
+  width:500px;
+  background-color:#ececec;
+}
+.company2{
+  font-size:30pt;
+}
+.real{
+  color:#a2a1a1;
+  list-style:none;
+  position:absolute;
+  top:5000px;
+  width:500px;
+  height:200px;
+  left:500px;
+  background-color:#ececec;
+}
+.real2{
+  font-size:30pt;
+}
+.carrers{
+  color:#a2a1a1;
+  list-style:none;
+  position:absolute;
+  top:5000px;
+  width:500px;
+  height:200px;
+  left:800px;
+  background-color:#ececec;
+}
+.carrers2{
+  font-size:30pt;
+}
+.faq{
+  color:#a2a1a1;
+  list-style:none;
+  position:absolute;
+  top:5000px;
+  width:500px;
+  height:200px;
+  left:1050px;
+  background-color:#ececec;
+}
+.faq2{
+  font-size:30pt;
+}
+.quick{
+  color:#a2a1a1;
+  list-style:none;
+  position:absolute;
+  top:5000px;
+  width:800px;
+  height:200px;
+  left:1220px;
+  background-color:#ececec;
+}
+.quick2{
+  font-size:30pt;
+}
+.verybottom{
+  padding-top: 50px;
+  padding-left: 283px;
+  font-weight:bolder;
+  color:white;
+  background-color:black;
+  position:absolute;
+  top:5170px;
+  width:1940px;
+  height:200px;
+  left:-5px;
+}

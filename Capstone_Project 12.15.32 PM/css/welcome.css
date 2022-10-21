@@ -1,0 +1,84 @@
+body{
+}
+
+@font-face{
+  font-family:Plom Praeng;
+  src: url('fonts/PlomPraeng.ttf');
+}
+
+@media(max-width: 750px){
+  .phone-col{
+    display:none;
+  }
+}
+
+.phone-width{
+  width: 20rem;
+}
+
+.custom-navbar{
+  background: #00000085 !important;
+}
+
+#form {
+    width: 50%;
+}
+.login{
+    width: 69%;
+    border-bottom: white solid 1.5px;
+    border-radius: .5px;
+}
+
+.custom-form{
+    background-color: #00000029;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: inherit;
+}
+
+.custom-form1:focus{
+    background-color: #0000000a;
+    border-radius: inherit;
+}
+
+
+.top-header{
+  max-width: -webkit-fill-available;
+  background-color: #00000045;
+}
+
+.whole-body{
+  height: 100%;
+  background-color: #00000054;
+}
+
+.welcome{
+  transition: all 1s;
+}
+
+body{
+  background-image: linear-gradient(402deg, transparent,#ff9797,#81ff95,#4dd0e1,#f8ff90,#57eaff,#4f6dff,#4f6dff61,transparent);
+  background-size: 10601%;
+  animation-name: bg;
+  height: 114vh;
+  border-radius: 55%;
+  width:100vw;
+  animation-duration: 55s;
+  animation-iteration-count:infinite;
+  animation-timing-function: cubic-bezier(0, 0.55, 0.96, 0.89);
+  animation-fill-mode: backwards;
+}
+
+@keyframes bg{
+  0%{
+    background-position:0% 50%;
+  }
+  50%{
+    background-position:100% 50%;
+  }
+  100%{
+    background-position:0% 50%;
+  }
+}
